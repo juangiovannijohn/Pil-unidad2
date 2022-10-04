@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/style.css">
 </head>
@@ -47,33 +50,36 @@
             </div>
           </nav>
 </header>
-<section class="pt-5 pb-5 banner_principal">
-<div class="container">
-    <div class="row gap-5">
-    <div class="col banner_principal_texts">
-        <p class="titulo_principal  text-white">Somos Vezzra !</p>
-        <p class=" text-white">Todo lo que necesitas saber para invertir en Cripto desde Argentina</p>
-        <a href="#cards" class="btn btn-primary">Quiero saber más</a>
-    </div>
-    <div class="col banner_principal_logo">
-        <figure class="figure">
-            <img width="250px" height="250px" src="img/logo-column.png" class="figure-img img-fluid rounded" alt="Logo">
-        </figure>
-    </div>
+<section class=" banner_principal">
+    <div class="filtro_banner_pricipal">
+    <div class="container ">
+        <div class="row gap-5">
+        <div class="col banner_principal_texts">
+            <p class="titulo_principal  text-white">Somos Vezzra !</p>
+            <p class=" text-white">Todo lo que necesitas saber para invertir en Cripto desde Argentina</p>
+            <a href="#cards" class="btn btn-primary">Quiero saber más</a>
+        </div>
+        <div class="col banner_principal_logo">
+            <figure class="figure">
+                <img width="150px" height="150px" src="img/logo-v2.png" class="figure-img img-fluid rounded" alt="Logo">
+            </figure>
+            <p class="titulo_secundario text-white">Vezzra</p>
+        </div>
+        </div>
     </div>
 </div>
 
 
 </section>
 <main class="container" >
-    <p class="mt-4 titulo_principal text-center">Texto principal</p>
+    <p class="mt-4 titulo_principal text-center">Titulo principal</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, tenetur doloremque ea, <b> ex nostrum aspernatur expedita accusamus tempora eius</b>, dicta obcaecati hic omnis quibusdam explicabo ipsa corrupti similique. <strong> Similique, deserunt.</strong></p>
     <div id="cards" class="row mt-5 mb-5">
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <a href="https://www.binance.com/es-LA"> <img src="img/Binance_Logo.jpg" class="card-img-top" alt="..."></a>
+                <a href="https://www.binance.com/es-LA" target="_blank"> <img src="img/Binance_Logo.jpg" class="card-img-top" alt="Logo de Binance" ></a>
                 <div class="card-body">
-                  <h5 class="card-title">Binance</h5>
+                  <h5 class="card-title text-start">Binance</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="https://www.binance.com/es-LA" class="btn btn-outline-primary" target="_blank">Más info</a>
                 </div>
@@ -81,9 +87,11 @@
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="img/lemon-cash-logo.jpg" class="card-img-top" alt="...">
+                <a href="https://www.lemon.me/" target="_blank" >
+                <img src="img/lemon-cash-logo.jpg" class="card-img-top" alt="Logo de Lemons Cash">
+                </a>
                 <div class="card-body">
-                  <h5 class="card-title">Lemon Cash</h5>
+                  <h5 class="card-title text-start">Lemon Cash</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="https://www.lemon.me/" class="btn btn-outline-primary" target="_blank">Más info</a>
                 </div>
@@ -91,9 +99,11 @@
         </div>
         <div class="col">
             <div class="card" style="width: 18rem;">
-                <img src="img/belo-app-logo.jpg" class="card-img-top" alt="...">
+                <a href="https://www.belo.app/" target="_blank">
+                <img src="img/belo-app-logo.jpg" class="card-img-top" alt="Logo de Belo App">
+                </a>
                 <div class="card-body">
-                  <h5 class="card-title">Belo</h5>
+                  <h5 class="card-title text-start">Belo</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                   <a href="https://www.belo.app/" class="btn btn-outline-primary" target="_blank">Más info</a>
                 </div>
@@ -110,23 +120,25 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </main>
-<footer class="" style="background-color: rgba(227, 160, 225, 0.728);">
-    <div class="container p-3 " >
+<footer class="footer" >
+    <div class="container p-3 pt-4 " >
         <div class="row">
-        <div class="col text-center footer_section"> 
+        <div class="col  footer_section_logo"> 
             <figure class="figure">
                 <img width="150px" height="150px" src="img/logo-column.png" class="figure-img img-fluid rounded" alt="Logo">
             </figure>
         </div>
-        <div class="col text-center footer_section">
-            <h4>Social</h4>
-            <a class="m-1" href="#!"><i class="bi bi-instagram"></i></a>
-            <a class="m-1" href="#!"><i class="bi bi-linkedin"></i></a>
-            <a class="m-1" href="#!"><i class="bi bi-github"></i></a>
+        <div class="col text-center footer_section_social">
+            <h4 class="footer_section_social_title">Social</h4>
+            <div class="footer_section_social_icons">
+                <a class="m-2" href="#!"><i class="bi bi-instagram fs-2"></i></a>
+                <a class="m-2" href="#!"><i class="bi bi-linkedin fs-2"></i></a>
+                <a class="m-2" href="#!"><i class="bi bi-github fs-2"></i></a>
+            </div>
         </div>
         <div class="col text-center footer_section">
             <h4>Links</h4>
-            <ul class="navbar-nav">
+            <ul class="navbar-nav footer_section_links">
                 <li class="nav-item">
                   <a class="nav-link" href="#">Home</a>
                 </li>
@@ -143,7 +155,7 @@
         </div> 
         </div>
     </div>   
-    <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.447);">
+    <div class="footer_copy text-center p-3" >
         © 2020 Copyright:
         <a class="" href="https://juangiovannijohn.com.ar/" target="_blank">juangiovannijohn.com.ar</a>
     </div>   
